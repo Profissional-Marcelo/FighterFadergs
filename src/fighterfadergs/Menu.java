@@ -46,11 +46,15 @@ public class Menu extends Lutador{
                     }
                 } else if (escolha == 2) {
                     System.out.println("|1| Marcus");
+                    System.out.println("|2| Robson");
                      int heroi;
                      heroi = leia.nextInt();
                      switch(heroi){
                          case 1:
                              theLutadorMarcus();
+                         break;
+                         case 2:
+                             theLutadorRobson();
                          break;
                              
                              
@@ -79,3 +83,4 @@ public class Menu extends Lutador{
 
     
 }
+
