@@ -146,5 +146,22 @@ public class Lutador  {
         lutadorMarcus();
         LutadorStatus();
     }
+    public void lutadorRobson(){
+        this.nome = "Robson";
+        this.nacionalidade = "Argentina";
+        this.idade = 19;
+        this.peso = 65f;
+        this.altura = 1.72f;
+        this.modoDeuses = false;
+        frases = new String[2];
+        frases [0] = "Vou te transformar em açúcar, depois venderei seu corpo em pedacinhos.";
+        frases [1] = "Quando eu fizer um fórum, você irá se arrepender de duelar comigo!";
+    }
+    
+    public void theLutadorRobson(){
+        lutadorRobson();
+        LutadorStatus();
+    }
     
 }
+
